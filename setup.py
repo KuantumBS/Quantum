@@ -85,8 +85,8 @@ setuptools.setup(
         'paddle_quantum.mbqc.VQSVD.example': ['*.txt'],
     },
     install_requires=[
-        'paddlepaddle>=2.2.0, <=2.3.0',
-        'protobuf>=3.1.0, <=3.20.1',
+        'paddlepaddle>=2.2.0,
+        'protobuf>=3.1.0,
         'qcompute',
         'networkx>=2.5',
         'matplotlib>=3.3.0',
